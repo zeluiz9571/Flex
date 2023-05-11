@@ -15,9 +15,9 @@
     display:flex;
     /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-between;
     /*Valores possíveis principais (center|stretch|flex-start|flex-end|baseline)*/
-    align-content: center;
+    align-content: flex-start;
     /*justify-content:space-between;*/
     flex-wrap: wrap-reverse;
 }
