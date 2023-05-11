@@ -59,3 +59,12 @@ footer{
     background: #1de9b6;
     grid-area: footer;
 }
+
+@media only screen and (max-width: 550px){
+    .container
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.0fr;
+    "nav"
+    "sidebar"
+    "main"
+/}
