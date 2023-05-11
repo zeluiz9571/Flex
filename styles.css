@@ -44,3 +44,18 @@ main{
     background: #6fffd2;
     grid-area: content1;
 }
+
+#content2{
+    background: #64ffba;
+    grid-area: content2;
+}
+
+#content3{
+    background: #73ffba;
+    grid-area: content3;
+}
+
+footer{
+    background: #1de9b6;
+    grid-area: footer;
+}
