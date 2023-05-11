@@ -2,5 +2,10 @@
 {
     display:flex;
     /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
-    flex-direction:column-reverse;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    /*Valores possíveis principais (center|stretch|flex-start|flex-end|baseline)*/
+    align-content: center;
+    /*justify-content:space-between;*/
+    flex-wrap: wrap;
 }
