@@ -9,3 +9,15 @@
     /*justify-content:space-between;*/
     flex-wrap: wrap;
 }
+
+.countainer2
+{
+    display:flex;
+    /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
+    flex-direction:row;
+    justify-content: space-around;
+    /*Valores possíveis principais (center|stretch|flex-start|flex-end|baseline)*/
+    align-content: center;
+    /*justify-content:space-between;*/
+    flex-wrap: wrap-reverse;
+}
