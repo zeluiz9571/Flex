@@ -1,4 +1,6 @@
 .coutainer
 {
     display:flex;
+    /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
+    flex-direction: row-reverse;
 }
