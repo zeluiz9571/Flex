@@ -1,23 +1,5 @@
-.countainer
-{
-    display:flex;
-    /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
-    flex-direction:row-reverse;
-    justify-content: space-between;
-    /*Valores possíveis principais (center|stretch|flex-start|flex-end|baseline)*/
-    align-content: center;
-    /*justify-content:space-between;*/
-    flex-wrap: wrap;
-}
-
-.countainer2
-{
-    display:flex;
-    /*Valores possíveis principais (row|row-reverse|column|column-reverse)*/
-    flex-direction:row;
-    justify-content: space-between;
-    /*Valores possíveis principais (center|stretch|flex-start|flex-end|baseline)*/
-    align-content: flex-start;
-    /*justify-content:space-between;*/
-    flex-wrap: wrap-reverse;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
 }
